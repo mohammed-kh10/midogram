@@ -163,7 +163,11 @@ html{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
-.index-login a{
+.index-login button a{
+    color: white;
+    text-decoration: none;
+}
+.index-login .forget{
     position: absolute;
     left: 40%;
     top: 85%;
@@ -232,7 +236,11 @@ html{
     margin: 20px 20px 0px 50px;
     transition: color .5s ,background-color .5s;
 }
-.index-sign button:hover{
+.index-sign button a{
+    color: rgb(240, 51, 51);
+    transition: color .5s ,background-color .5s;
+}
+.index-sign button:hover , .index-sign button a:hover{
     color: white;
     background-color: rgb(240, 51, 51);
 }
