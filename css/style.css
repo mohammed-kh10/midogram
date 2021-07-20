@@ -1,0 +1,1520 @@
+:root{
+    --color1: #68c5db;
+    --color2: #ffffff;
+    --color3: #0197f6;
+    --color4: #02182b;
+    --color5: #b7263d;
+    --color6: #999;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.index-body{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/bck.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.index-head h1{
+    color: rgb(240, 51, 51);
+    font-size: 100px;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0px 0px 23px rgb(230, 213, 213);
+}
+.index-icon{
+    position: relative;
+}
+.index-icon i{
+    position: absolute;
+    left: 46%;
+    width: 115px;
+    height: 115px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: 70px;
+    box-shadow: 0px 0px 17px 8px white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: transform 1.7s;
+    transform: rotate(360deg);
+    transition: opacity 5s;
+    cursor: pointer;
+}
+.index-icon i:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* $#$$$$$$$$$$$$$$$$ end of index icon $$$$$$$$$$$*/
+/* $#$$$$$$$$$$$$$$$$ end of index icon $$$$$$$$$$$*/
+/* $#$$$$$$$$$$$$$$$$ end of index icon $$$$$$$$$$$*/
+.index-btns{
+    margin: 200px 0px 0px 580px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(240, 51, 51);
+}
+.index-btns button{
+    border: none;
+    width: 100px;
+    height: 60px;
+    outline: none;
+}
+.index-btns .btn1{
+    border-radius: 10px;
+}
+.index-btns .btn1:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.index-btns .btn2{
+    background-color: transparent;
+    color: white;
+}
+.index-btns .btn2:hover{
+    color: black;
+}
+/*########### end of index btns section ######## */
+/*########### end of index btns section ######## */
+/*########### end of index btns section ######## */
+.index-login{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    top: 38%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.index-login h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+.index-login .div1{
+    width: 90%;
+    margin-bottom: 17px;
+}
+.index-login .div2{
+    width: 90%;
+    margin-bottom: 17px;
+}
+.index-login .div1 i{
+    background-color: rgb(243, 88, 88);
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 80px;
+    padding: 13px;
+    z-index: 2;
+}
+.index-login #pass{
+    background-color: rgb(243, 88, 88);
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 80px;
+    padding: 13px;
+    z-index: 2;
+}
+.index-login .div1 input{
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    z-index: 1;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.index-login .div2 input{
+    position: absolute;
+    left: 32%;
+    top: 45%;
+    z-index: 1;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.index-login .div2  #show{
+    position: absolute;
+    left: 79%;
+    top: 43%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
+    color: rgb(243, 88, 88);
+    cursor: pointer;
+}
+.index-login button{
+    display: block;
+    width: 110px;
+    height: 50px;
+    margin: 0px 20px 0px 90px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.index-login a{
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    color: white;
+    text-decoration: underline;
+}
+/*@@@@@@@@@@@ end of log in box @@@@@@@*/
+/*@@@@@@@@@@@ end of log in box @@@@@@@*/
+/*@@@@@@@@@@@ end of log in box @@@@@@@*/
+/*@@@@@@@@@@@ end of log in box @@@@@@@*/
+.index-sign{
+    padding: 10px 30px;
+    width: 30%;
+    position: absolute;
+    top: 34%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: none;
+}
+.index-sign h1{
+    font-size: 25px;
+}
+.index-sign p{
+    border-bottom: 1px solid black;
+}
+.index-sign form label{
+    display: block;
+}
+.index-sign form input{
+    border: none;
+    width: 90%;
+    border-bottom: 1px solid rgb(243, 88, 88);
+    background-color: transparent;
+    outline: none;
+}
+.index-sign #show{
+    position: absolute;
+    left: 79%;
+    top: 40%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
+    color: rgb(243, 88, 88);
+    cursor: pointer;
+}
+.index-sign form .inline{
+    display: inline;
+    width: 10%;
+}
+.index-sign form select{
+    width: 88%;
+}
+.index-sign button{
+    display: block;
+    width: 110px;
+    height: 50px;
+    border: 1px solid rgb(243, 88, 88);
+    outline: none;
+    background-color: transparent;
+    color: rgb(240, 51, 51);
+    margin: 20px 20px 0px 50px;
+    transition: color .5s ,background-color .5s;
+}
+.index-sign button:hover{
+    color: white;
+    background-color: rgb(240, 51, 51);
+}
+/*@@@@@@@@@@@ end of sign up box @@@@@@@*/
+/*@@@@@@@@@@@ end of sign up box @@@@@@@*/
+/*@@@@@@@@@@@ end of sign up box @@@@@@@*/
+/*@@@@@@@@@@@ end of sign up box @@@@@@@*/
+/*#######################################################*/
+/*#######################################################*/
+/* @@@@@@@@@@@@ end of index page @@@@@@@@@@*/
+/* @@@@@@@@@@@@ end of index page @@@@@@@@@@*/
+/* @@@@@@@@@@@@ end of index page @@@@@@@@@@*/
+/*#######################################################*/
+/*#######################################################*/
+#goUpBtn{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    color: var(--color2);
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--color4);
+    box-shadow: 0px 0px 13px 5px rgb(248, 99, 99);
+    background-color: rgba(68, 33, 33, 0.8);
+    position: fixed;
+    z-index: 9999;
+    outline: none;
+    display: none;
+}
+.home-body{
+    background-color: rgb(192, 192, 192);
+    padding: 0;
+    margin: 0;
+}
+/*nav bar*/
+/*nav bar*/
+/*nav bar*/
+.home-nav{
+    height: 10.8%;
+    box-sizing: border-box;
+    background-color: rgb(4, 3, 31);
+    position: fixed;
+    z-index: 999;
+}
+/*end of nav bar */
+.home-nav .logo{
+    width: 10%;
+    margin-left: 0px;
+    display: block;
+    margin-right: 10%;
+}
+.home-nav .logo img{
+    width: 100%;
+    background-color: var(--color5);
+}
+/*end of logo section*/
+.home-nav .srech{
+    padding: 14px 0px;
+    margin-right: 13%;
+}
+.home-nav .srech input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgb(42, 32, 128);
+    color: wheat;
+    border-radius: 15px;
+}
+/*serch bar*/
+/*serch bar*/
+/*serch bar*/
+.home-nav .btns #messages{
+    margin: 16px 0px 0px 0px;
+    border: none;
+    color: #999;
+    font-size: 25px;
+    opacity: .6;
+    cursor: pointer;
+}
+.home-nav .btns #notification{
+    margin: 16px 0px 0px 0px;
+    border: none;
+    color: #999;
+    font-size: 25px;
+    opacity: .6;
+    cursor: pointer;
+}
+.home-nav .btns #friends{
+    margin: 16px 0px 0px 0px;
+    border: none;
+    color: #999;
+    font-size: 25px;
+    opacity: .6;
+    cursor: pointer;
+}
+.home-nav .btns #messages:hover{
+    opacity: 1;
+}
+.home-nav .btns #friends:hover{
+    opacity: 1;
+}
+.home-nav .btns #notification:hover{
+    opacity: 1;
+}
+.home-nav .btns #messages{
+    margin: 0px 20px;
+}
+.home-nav .btns #friends::after{
+    content: "15";
+    color: beige;
+    position: absolute;
+    top: 4%;
+    left: 15.5%;
+    font-size: 15px;
+    background-color: rgb(248, 99, 99);
+    border-radius: 50%;
+    padding: 1px;
+}
+.home-nav .btns #messages::after{
+    content: "22";
+    color: beige;
+    position: absolute;
+    top: 4%;
+    left: 39.5%;
+    font-size: 15px;
+    background-color: rgb(248, 99, 99);
+    border-radius: 50%;
+    padding: 1px;
+}
+.home-nav .btns #notification::after{
+    content: "22";
+    color: beige;
+    position: absolute;
+    top: 4%;
+    left: 61.5%;
+    font-size: 15px;
+    background-color: rgb(248, 99, 99);
+    border-radius: 50%;
+    padding: 1px;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* end of buttons section/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.showdrop{
+    display: block;
+}
+.friend-request{
+    background-color: var(--color4);
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    position: fixed;
+    z-index: 999;
+    display: none;
+    padding: 10px;
+}
+.friend-request h1{
+    text-align: center;
+    color: var(--color2);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.friend-request .request{
+    padding: 10px;
+    background-color: var(--color6);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.friend-request .request img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.friend-request .request p{
+    color: var(--color2);
+}
+.friend-request .request .btns{
+    clear: both;
+}
+.friend-request .request .btns .btn1,.friend-request .request .btns .btn2,.friend-request .request .btns .btn3{
+    background-color: var(--color5);
+    color: var(--color2);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.friend-request .request .btns .btn1:hover,.friend-request .request .btns .btn2:hover,.friend-request .request .btns .btn3:hover{
+    background-color: rgba(245, 103, 103, 0.8);
+}
+/*end of friends requset section*/
+/*end of friends requset section*/
+.messages{
+    background-color: var(--color4);
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    position: fixed;
+    z-index: 999;
+    padding: 10px;
+    display: none;
+}
+.messages h1{
+    text-align: center;
+    color: var(--color2);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.messages .mess{
+    margin: 10px 0px;
+    height: 70px;
+}
+.messages .mess:hover{
+    background-color: rgba(235, 234, 234, 0.8);
+}
+.messages .mess img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.messages .mess cite{
+    color: var(--color2);
+    margin-right: 20px;
+}
+.messages .mess p{
+    color: var(--color6);
+}
+.messages .mess span{
+    color: var(--color6);
+    position: absolute;
+    right: 20px;
+}
+.messages .clear{
+    clear: both;
+}
+/*end of messages part*/
+/*end of messages part*/
+/*end of messages part*/
+.notif{
+    background-color: var(--color4);
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    position: fixed;
+    z-index: 999;
+    padding: 10px;
+    display: none;
+}
+.notif h1{
+    text-align: center;
+    color: var(--color2);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.notif .notification{
+    margin: 10px 0px;
+}
+.notif .notification img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.notif .notification p{
+    color: var(--color6);
+    font-size: 13px;
+}
+.notif .notification .span1{
+    color: var(--color3);
+}
+.notif .notification .span2{
+    background-color: var(--color3);
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 9px;
+    position: absolute;
+    right: 7%;
+}
+.messages .clear{
+    clear: both;
+}
+/*@@@@@@@@@@@@@@@@@@*/
+/* end of section actions*/
+/* end of section actions*/
+/* end of section actions*/
+/*@@@@@@@@@@@@@@@@@@*/
+
+.home-nav .prof{
+    margin: 10px 0px;
+}
+.home-nav .prof img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.home-nav .prof cite{
+    color: white;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.home-nav .prof button{
+    background-color: transparent;
+    color: #999;
+    border: none;
+    outline: none;
+}
+.home-nav .dropdown{
+    position: absolute;
+    top: 20%;
+    left: 66%;
+    z-index: 999;
+}
+.show{
+    display: block;
+    z-index: 999;
+}
+.home-nav .dropdown .dropdown-menu{
+    box-shadow: 0px 0px 17px 7px rgb(243, 88, 88);
+    z-index: 999;
+}
+.home-nav .dropdown .dropdown-item:hover{
+    background-color: rgb(240, 51, 51);
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*########## end of nav bar ##########*/
+/*########## end of nav bar ##########*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.home-right-bar{
+    height: 89vh;
+    position: fixed;
+    width: 6.4%;
+    background-color: white;
+}
+.home-right-bar ul{
+    list-style: none;
+    margin-top: 60px;
+}
+.home-right-bar ul li{
+    margin: 20px 0px;
+}
+.home-right-bar ul li i{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.home-right-bar ul li .active{
+    color: rgb(243, 88, 88);
+}
+.home-right-bar ul li i:hover{
+    color: rgb(243, 88, 88);
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* ^^^^^^^^^ end of right side bar ^^^^^^*/
+/* ^^^^^^^^^ end of right side bar ^^^^^^*/
+/* ^^^^^^^^^ end of right side bar ^^^^^^*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.home-left-bar{
+    height: 89vh;
+    position: fixed;
+    left: 94%;
+    width: 6.5%;
+    background-color: white;
+}
+.home-left-bar ul{
+    list-style: none;
+    margin-top: 60px;
+    padding: 0;
+}
+.home-left-bar ul li{
+    margin: 20px 0px;
+    margin-left: 25px;
+}
+.home-left-bar ul li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a1::after{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a2::after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a3::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a4::after{
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a5::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a6::after{
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 23%;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a7::after{
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul #a8::after{
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.home-left-bar ul li .active{
+    color: rgb(243, 88, 88);
+}
+.home-left-bar ul li i:hover{
+    color: rgb(243, 88, 88);
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* ^^^^^^^^^ end of left side bar ^^^^^^*/
+/* ^^^^^^^^^ end of left side bar ^^^^^^*/
+/* ^^^^^^^^^ end of left side bar ^^^^^^*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.home-my-content{
+    width: 100%;
+    height: 87vh;
+}
+.home-my-content .pages-like{
+    height: 59%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.home-my-content .pages-like h1{
+    font-size: 25px;
+    margin-right: 60px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+.home-my-content .pages-like .page{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.home-my-content .pages-like .page img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.home-my-content .pages-like .page p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    display: inline-block;
+}
+/*pages like*/
+/*pages like*/
+/*pages like*/
+.home-my-content .last-photos{
+    height: 39%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.home-my-content .last-photos h1{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 60px;
+    border-bottom: 1px solid black;
+}
+.home-my-content .last-photos .col-4 img{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+/*###############################################*/
+/*###############################################*/
+/*end of my content section */
+/*end of my content section */
+/*end of my content section */
+/*###############################################*/
+/*###############################################*/
+.home-story{
+    position: absolute;
+    top: 15%;
+    box-sizing: border-box;
+}
+.home-story .create{
+    height: 88%;
+    width: 100%;
+}
+.home-story .create img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+.home-story .create p{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(42, 32, 128);
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.home-story .create span{
+    position: absolute;
+    top: 63%;
+    left: 40%;
+    color: rgb(243, 88, 88);
+    font-size: 23px;
+}
+.home-story .my-stories{
+    height: 60%;
+    z-index: 2;
+}
+.home-story .stories .content{
+    height: 210px;
+    width: 90%;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: 100% 100%;
+    overflow: hidden;
+    transition: background-size .5s;
+}
+.home-story .stories .content:hover{
+    background-size: 111% 111%;
+}
+.home-story .stories .content img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--color5);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.home-story .stories .content p{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 10%;
+    background-color: var(--color5);
+    color: var(--color2);
+}
+/*@@@@@@@@@@###########@@@@@@@@@@@####*/
+/*@@@@@@@@@@###########@@@@@@@@@@@####*/
+/*emd of tories swction*/
+/*emd of tories swction*/
+/*emd of tories swction*/
+/*@@@@@@@@@@###########@@@@@@@@@@@####*/
+/*@@@@@@@@@@###########@@@@@@@@@@@####*/
+.home-new-post{
+    background-color: white;
+    position: absolute;
+    top: 51%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.home-new-post .content img{
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-right: 10px;
+}
+.home-new-post .content textarea{
+    width: 83%;
+    padding: 10px;
+    outline: none;
+    height: 88px;
+    background-color: #999;
+    border-radius: 10px;
+}
+.home-new-post .content #post-btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin:10px 42%;
+    background-color: var(--color5);
+    transition:  background-color .5s,color .5s;
+}
+.home-new-post .content #post-btn:hover{
+    background-color: rgba(245, 103, 103, 0.8);
+}
+.home-new-post .content i{
+    color: var(--color5);
+    display: inline;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*end of new post section*/
+/*end of new post section*/
+/*end of new post section*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.heartActive{
+    color: red;
+}
+.home-post1{
+    background-color: var(--color2);
+    position: absolute;
+    top: 94%;
+    border-radius: 10px;
+}
+.home-post1 .content .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.home-post1 .content .user cite{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.home-post1 .content .user span{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.home-post1 .content .post-img{
+    width: 100%;
+    height: 70%;
+    padding: 140px 0px 140px 300px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.home-post1 .content .post-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--color2);
+}
+.home-post1 .content .effects .like{
+    margin-bottom: 10px;
+}
+.home-post1 .content .effects i{
+    cursor: pointer;
+}
+.home-post1 .comments{
+    display: none;
+    z-index: 999;
+}
+.home-post1 .comments .hr{
+    width: 80%;
+    height: 7px;
+    margin: 20px auto;
+    background-color: rgb(4, 3, 31);
+    border-radius: 15px;
+}
+.home-post1 .comments a{
+    margin: 10px 20px;
+}
+.home-post1 .comments .current-com{
+    margin-bottom: 10px;
+}
+.home-post1 .comments .current-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.home-post1 .comments .current-com cite{
+    font-weight: bolder;
+}
+.home-post1 .comments .current-com .span1{
+    margin-left: 80px;
+}
+.home-post1 .comments .current-com .span2{
+    padding-right: 20px;
+}
+.home-post1 .comments .new-com{
+    margin: 10px 0px;
+}
+.home-post1 .comments .new-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.home-post1 .comments .new-com input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--color6);
+}
+.home-post1 .comments .new-com input[type=button]{
+    background-color: var(--color5);
+    border: 1px solid var(--color5);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: border .5s ,background-color 1s ,color .5s;
+}
+.home-post1 .comments .new-com input[type=button]:hover{
+    background-color: transparent;
+    color: var(--color5);
+}
+
+/*######################################*/
+    /*post 1*/
+    /*post 1*/
+/*######################################*/
+
+.home-post2{
+    background-color: var(--color2);
+    position: absolute;
+    top: 193%;
+    border-radius: 10px;
+    margin-bottom: 300px;
+    z-index: 3;
+}
+.home-post2 .content .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.home-post2 .content .user cite{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.home-post2 .content .user span{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.home-post2 .content .post-text{
+    margin-bottom: 10px;
+}
+.home-post2 .content .effects .like{
+    margin-bottom: 10px;
+}
+.home-post2 .content .effects i{
+    cursor: pointer;
+}
+.home-post2 .comments{
+    display: none;
+}
+.home-post2 .comments .hr{
+    width: 80%;
+    height: 7px;
+    margin: 20px auto;
+    background-color: rgb(4, 3, 31);
+    border-radius: 15px;
+}
+.home-post2 .comments a{
+    margin: 10px 20px;
+}
+.home-post2 .comments .current-com{
+    margin-bottom: 10px;
+}
+.home-post2 .comments .current-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.home-post2 .comments .current-com cite{
+    font-weight: bolder;
+}
+.home-post2 .comments .current-com .span1{
+    margin-left: 80px;
+}
+.home-post2 .comments .current-com .span2{
+    padding-right: 20px;
+}
+.home-post2 .comments .new-com{
+    margin: 10px 0px;
+}
+.home-post2 .comments .new-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.home-post2 .comments .new-com input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--color6);
+}
+.home-post2 .comments .new-com input[type=button]{
+    background-color: var(--color5);
+    border: 1px solid var(--color5);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: border .5s ,background-color 1s ,color .5s;
+}
+.home-post2 .comments .new-com input[type=button]:hover{
+    background-color: transparent;
+    color: var(--color5);
+}
+/*######################################*/
+    /*post 2*/
+    /*post 2*/
+/*######################################*/
+
+.home-post3{
+    background-color: var(--color2);
+    position: absolute;
+    top: 239%;
+    border-radius: 10px;
+    margin-bottom: 300px;
+    z-index: 3;
+}
+.home-post3 .content .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.home-post3 .content .user cite{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.home-post3 .content .user span{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.home-post3 .content .post-video{
+    margin-bottom: 10px;
+    height: 250px;
+}
+.home-post3 .content .post-video video{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.home-post3 .content .effects .like{
+    margin-bottom: 10px;
+}
+.home-post3 .content .effects i{
+    cursor: pointer;
+}
+.home-post3 .comments{
+    display: none;
+}
+.home-post3 .comments .hr{
+    width: 80%;
+    height: 7px;
+    margin: 20px auto;
+    background-color: rgb(4, 3, 31);
+    border-radius: 15px;
+}
+.home-post3 .comments a{
+    margin: 10px 20px;
+}
+.home-post3 .comments .current-com{
+    margin-bottom: 10px;
+}
+.home-post3 .comments .current-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.home-post3 .comments .current-com cite{
+    font-weight: bolder;
+}
+.home-post3 .comments .current-com .span1{
+    margin-left: 80px;
+}
+.home-post3 .comments .current-com .span2{
+    padding-right: 20px;
+}
+.home-post3 .comments .new-com{
+    margin: 10px 0px;
+}
+.home-post3 .comments .new-com img{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.home-post3 .comments .new-com input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--color6);
+}
+.home-post3 .comments .new-com input[type=button]{
+    background-color: var(--color5);
+    border: 1px solid var(--color5);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: border .5s ,background-color 1s ,color .5s;
+}
+.home-post3 .comments .new-com input[type=button]:hover{
+    background-color: transparent;
+    color: var(--color5);
+}
+.menuRightBar{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    margin: 10px 0px 0px 10px;
+    display: none;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*post 3*/
+/*post 3*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*end oh home page*/
+/*end oh home page*/
+/*end oh home page*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.profile-body{
+    background-color: #999;
+    overflow-x: hidden;
+}
+.profile-header{
+    width: 100%;
+    position: absolute;
+    top: 11%;
+    height: 500px;
+    background-image: url(../images/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.profile-header button{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.profile-another-nav{
+    background-color: var(--color2);
+    width: 100%;
+    position: absolute;
+    top: 87%;
+}
+.profile-another-nav img{
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: -65%;
+    border: 2px solid white;
+}
+.profile-another-nav cite,.profile-another-nav p{
+    margin-left: 190px;
+    font-size: 23px;
+}
+.profile-another-nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}
+.profile-another-nav ul li{
+    margin: 10px;
+    font-size: 22px;
+}
+.profile-another-nav ul li a{
+    color: var(--color4);
+}
+.profile-another-nav ul li .active,.profile-another-nav ul li a:hover:not(.active){
+    color: var(--color5);
+    text-decoration: underline;
+}
+/*end of porfile nav*/
+/*end of porfile nav*/
+/*end of porfile nav*/
+.profile-info{
+    background-color: var(--color2);
+    position: absolute;
+    top: 103%;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 21%;
+}
+.profile-info h1{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.profile-info h1 .h1-icon{
+    color: rgb(247, 164, 55);
+    padding: 5px;
+    border: 2px solid rgb(247, 164, 55);
+    border-radius: 50%;
+}
+.profile-info .hr{
+    width: 50%;
+    height: 7px;
+    margin: auto;
+    background-color: var(--color5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.profile-info .one{
+    margin-bottom: 10px;
+}
+.profile-info .one i{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.profile-info .one p{
+    font-size: 14px;
+}
+.profile-info .following i{
+    font-size: 30px;
+    margin-left: 45px;
+}
+.profile-info .following h4,.profile-info .following h6{
+    text-align: center;
+}
+/*end of profile info section*/
+/*end of profile info section*/
+/*end of profile info section*/
+.profile-friends{
+    background-color: var(--color2);
+    position: absolute;
+    top: 170%;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 21%;
+    overflow: hidden;
+    padding: 10px;
+}
+.profile-friends h1{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+.profile-friends h1 .h1-icon{
+    color: rgb(247, 164, 55);
+    padding: 5px;
+    border: 2px solid rgb(247, 164, 55);
+    border-radius: 50%;
+}
+.profile-friends span{
+    margin-left: 110px;
+}
+.profile-friends .hr{
+    width: 50%;
+    height: 7px;
+    margin: auto;
+    background-color: var(--color5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.profile-friends .col-4 img{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+/*end of profile friends section*/
+/*end of profile friends section*/
+/*end of profile friends section*/
+.profile-insta{
+    background-color: var(--color2);
+    position: absolute;
+    top: 103%;
+    right: 2%;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 21%;
+    overflow: hidden;
+    padding: 10px;
+}
+.profile-insta h1{
+    font-size: 24px;
+    margin: 10px 0px 5px 0px;
+}
+.profile-insta h1 .h1-icon{
+    color: rgb(247, 164, 55);
+}
+.profile-insta span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(247, 164, 55);
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-insta .hr{
+    width: 50%;
+    height: 7px;
+    margin: 20px auto;
+    background-color: var(--color5);
+    border-radius: 10px;
+}
+.profile-insta .col-4 img{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+/*end of profile insta section*/
+/*end of profile insta section*/
+/*end of profile insta section*/
+.profile-suggest{
+    background-color: var(--color2);
+    position: absolute;
+    top: 170%;
+    right: 2%;
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 21%;
+    overflow: hidden;
+    padding: 10px;
+}
+.profile-suggest h1{
+    font-size: 24px;
+    margin: 10px 0px 5px 0px;
+}
+.profile-suggest span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(247, 164, 55);
+    font-size: 25px;
+    cursor: pointer;
+}
+.profile-suggest .hr{
+    width: 50%;
+    height: 7px;
+    margin: 20px auto;
+    background-color: var(--color5);
+    border-radius: 10px;
+}
+.profile-suggest .col-4 img{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.profile-suggest .col-4 cite{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*##############################################*/
+/*##############################################*/
+/*responsive part*/
+/*responsive part*/
+/*responsive part*/
+/*##############################################*/
+/*##############################################*/
+@media (max-width:576px){
+    .home-nav,.home-left-bar,.home-my-content,.home-right-bar{
+        display: none;
+    }
+    .menuRightBar{
+        display: block;
+    }
+    .home-right-bar{
+        width: 8.4%;
+    }
+    .home-right-bar ul{
+        position: absolute;
+        left: -70%;
+    }
+    .home-story{
+        top: 9%;
+    }
+    .home-story .stories .content p{
+        font-size: 12px;
+        left: 14%;
+    }
+    .home-new-post,.home-post1,.home-post2,.home-post3{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .home-post1{
+        top: 110%;
+    }
+    .home-post1 .content .post-img{
+        padding: 140px 0px 140px 170px;
+    }
+    .home-new-post .content img{
+        margin-bottom: 10px;
+    }
+    .home-new-post .content textarea{
+        width: 80%;
+        margin: auto;
+    }
+    .home-post2{
+        top: 207%;
+    }
+    .home-post3{
+        top: 266%;
+    }
+}
